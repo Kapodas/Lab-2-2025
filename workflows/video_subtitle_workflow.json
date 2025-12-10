@@ -26,23 +26,6 @@
       }
     },
     {
-      "parameters": {},
-      "id": "286df28e-5078092097799-a483ab41affe",
-      "name": "Send Hello Message",
-      "type": "n8n-nodes-base.telegram",
-      "typeVersion": 2,
-      "position": [
-        -1600,
-        192
-      ],
-      "credentials": {
-        "telegramApi": {
-          "id": "0XXiTRnZ7pszCjcF",
-          "name": "Telegram account"
-        }
-      }
-    },
-    {
       "parameters": {
         "rules": {
           "values": [
@@ -151,23 +134,6 @@
         -1184,
         464
       ]
-    },
-    {
-      "parameters": {},
-      "id": "f3f44099-dc37-42e5-9601-92c276971cdb",
-      "name": "Send Processing Message",
-      "type": "n8n-nodes-base.telegram",
-      "typeVersion": 2,
-      "position": [
-        0,
-        0
-      ],
-      "credentials": {
-        "telegramApi": {
-          "id": "0XXiTRnZ7pszCjcF",
-          "name": "Telegram account"
-        }
-      }
     },
     {
       "parameters": {
@@ -286,23 +252,6 @@
       ]
     },
     {
-      "parameters": {},
-      "id": "669a02ec-6e5f-412c-abc4-26313f53fa0f",
-      "name": "Send Ready Message",
-      "type": "n8n-nodes-base.telegram",
-      "typeVersion": 2,
-      "position": [
-        592,
-        208
-      ],
-      "credentials": {
-        "telegramApi": {
-          "id": "0XXiTRnZ7pszCjcF",
-          "name": "Telegram account"
-        }
-      }
-    },
-    {
       "parameters": {
         "operation": "sendVideo",
         "chatId": "={{ 999894907 }}",
@@ -329,23 +278,6 @@
       }
     },
     {
-      "parameters": {},
-      "id": "dfa84fc6-c3fb-41c1-a966-abfd9403d377",
-      "name": "Send Goodbye Message",
-      "type": "n8n-nodes-base.telegram",
-      "typeVersion": 2,
-      "position": [
-        992,
-        144
-      ],
-      "credentials": {
-        "telegramApi": {
-          "id": "0XXiTRnZ7pszCjcF",
-          "name": "Telegram account"
-        }
-      }
-    },
-    {
       "parameters": {
         "url": "http://video-processing:8100/clear",
         "options": {}
@@ -358,40 +290,6 @@
         1008,
         320
       ]
-    },
-    {
-      "parameters": {},
-      "id": "41bc370e-e882-4083-ac99-c2a3ea70aab4",
-      "name": "Send Download Error",
-      "type": "n8n-nodes-base.telegram",
-      "typeVersion": 2,
-      "position": [
-        -416,
-        672
-      ],
-      "credentials": {
-        "telegramApi": {
-          "id": "0XXiTRnZ7pszCjcF",
-          "name": "Telegram account"
-        }
-      }
-    },
-    {
-      "parameters": {},
-      "id": "3b8b441f-deab-41d9-a32d-193152174e09",
-      "name": "Send Server Error",
-      "type": "n8n-nodes-base.telegram",
-      "typeVersion": 2,
-      "position": [
-        688,
-        496
-      ],
-      "credentials": {
-        "telegramApi": {
-          "id": "0XXiTRnZ7pszCjcF",
-          "name": "Telegram account"
-        }
-      }
     },
     {
       "parameters": {
@@ -655,7 +553,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "c647bfbd-6515-4e2d-be22-a8a5bb4cccb7",
+  "versionId": "1d24727f-6527-42f8-a9b1-766a0416fbc7",
   "meta": {
     "instanceId": "a2f9f425b14ce94b6da5aa04a909ade50c69eac79b35aca1f68b2bfcb5ec4ebc"
   },
